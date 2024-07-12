@@ -5,9 +5,9 @@ user_models: user_models.json
 user_custom_nodes: user_custom_nodes.json
 workflows:
   - id: bln9cookmd
-    name: Workflow_1_api.json
+    name: workflow_1_api.json
     description: ''
-    file: background_remover/Workflow_1_api.json
+    file: background_remover/workflow_1_api.json
     inputs:
       - path: 9.inputs.filename_prefix
         label: filename_prefix
