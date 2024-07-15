@@ -1,4 +1,4 @@
-version: 1
+version: 2
 models: models.json
 custom_nodes: custom_nodes.json
 user_models: user_models.json
@@ -38,3 +38,28 @@ workflows:
     name: lol_api.json
     description: ''
     file: background_remover/lol_api.json
+    inputs:
+      - path: 9.inputs.filename_prefix
+        label: filename_prefix
+        parameter_name: filename_prefix_70638
+        type: string
+        demo_type: text
+        category: output
+        randomize: true
+      - path: 10.inputs.image
+        label: l
+        parameter_name: image_20039
+        type: string
+        demo_type: image
+        category: input
+        randomize: false
+      - path: 10.inputs.upload
+        label: k
+        parameter_name: upload_12235
+        type: string
+        demo_type: text
+        category: input
+        randomize: false
+    outputs:
+      - label: Output
+        demo_type: image
