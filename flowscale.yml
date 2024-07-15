@@ -34,3 +34,7 @@ workflows:
       - label: Output Image
         demo_type: image
     skip_preprocess: true
+  - id: rzxkspli5b
+    name: lol_api.json
+    description: ''
+    file: background_remover/lol_api.json
